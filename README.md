@@ -8,7 +8,7 @@ A personal adblock filter list designed to remove distractions from YouTube on *
 - [X] App installation prompts
 - [X] Feed badges (New, 4K, etc.)
 - [X] Account specific features (save, report, subscribe etc.)
- Telemetry (requires supplementing)
+- [X] Telemetry (requires supplementing)
 
 ## Supplement
 + On Android use [Firefox](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)+ [Ublock Origin](https://ublockorigin.com).
