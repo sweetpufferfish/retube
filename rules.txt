@@ -1,0 +1,65 @@
+[uBlock Origin]
+! Title: Retube
+! Description: Removes distracting elements on YouTube (mobile) based on my preferences
+! Homepage: https://github.com/sweetpufferfish/retube
+! License: https://github.com/sweetpufferfish/retube/blob/main/LICENSE.md
+
+!--------------------------------!
+!----- YouTube Distractions -----!
+!--------------------------------!
+! Cosmetic Filters
+youtube.com###purchase-button
+youtube.com###sponsor-button
+youtube.com##button[aria-label="Join this channel"]
+youtube.com###attached-survey
+youtube.com##yt-tab-shape[tab-title="Community"]
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.mobile-topbar-header-content > ytm-menu
+m.youtube.com##ytm-topbar-menu-button-renderer
+m.youtube.com##.pivot-bar-slide-in
+m.youtube.com##.c4-tabbed-header-page-header-banner
+m.youtube.com##ytm-badge:has-text(Fundraiser)
+m.youtube.com##ytm-badge:has-text(New)
+m.youtube.com##ytm-badge:has-text(4K)
+m.youtube.com##ytm-badge:has-text(Related)
+m.youtube.com##ytm-badge:has-text(Auto-dubbed)
+m.youtube.com##ytm-rich-section-renderer:has(.rich-shelf-title:has-text(Breaking news))
+m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
+m.youtube.com##ytm-chip-cloud-chip-renderer[ellipsis-truncate-styling="Live"]
+m.youtube.com##ytm-donation-shelf-renderer
+m.youtube.com##button-view-model:has(button[aria-label="Share"])
+m.youtube.com##button[aria-label="Save playlist"]
+m.youtube.com##button[aria-label="Save to playlist"]
+
+! Social
+! comment section can be useful sometimes disregarding the useless bot farms and discourse
+# m.youtube.com##ytm-comments-entry-point-header-renderer
+# m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels
+! metadata section pairs well with dearrow and sponsorblock segment editing
+# m.youtube.com##ytm-slim-video-metadata-section-renderer
+m.youtube.com##.slim-owner-subscribe-button
+m.youtube.com##.channel-subscribe-button
+m.youtube.com##button[aria-label="Report"]
+
+! Reels
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+m.youtube.com##.rich-section-content
+
+! Search/Trending page (Android)
+youtube.com##ytm-reel-shelf-renderer
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
+youtube.com##ytm-media-item:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+
+! Tracking & pinging
+/generate_204$~xhr
+||youtube.com/generate_204$image
+||m.youtube.com/generate_204
+||m.youtube.com/error_204
+||m.youtube.com/youtubei/v1/att/get
