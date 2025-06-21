@@ -12,6 +12,7 @@ youtube.com###purchase-button
 youtube.com###sponsor-button
 youtube.com###offer-module
 youtube.com###survey
+youtube.com###masthead-ad
 youtube.com##yt-survey-answer-card-renderer
 youtube.com##.ytp-suggested-action-badge
 youtube.com##button[aria-label="Join this channel"]
@@ -20,6 +21,8 @@ youtube.com###ticket-shelf
 youtube.com##yt-tab-shape[tab-title="Community"]
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
 youtube.com##yt-formatted-string>span:has-text(product)
+youtube.com##tp-yt-paper-dialog:has(upsell-view-model)
+youtube.com##tp-yt-paper-dialog:has([class*="premium"])
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
 youtube.com##yt-tab-shape[tab-title="Store"]
 m.youtube.com##.mobile-topbar-header-sign-in-button
@@ -58,6 +61,14 @@ youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
 m.youtube.com##.rich-section-content
+
+
+! Embeds
+##.ytp-scroll-min
+##.ytp-pause-overlay
+##.ytp-cards-teaser
+youtube.com##.ytp-scroll-min
+youtube.com##.ytp-pause-overlay
 
 ! Live
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))
