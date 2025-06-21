@@ -11,7 +11,7 @@ A personal adblock filter list designed to remove distractions from YouTube on *
 - [X] Telemetry (requires supplementing)
 
 ## Supplement
-+ On Android use [Firefox](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)+ [Ublock Origin](https://ublockorigin.com).
++ On Android use [Firefox](https://f-droid.org/packages/org.mozilla.fennec_fdroid/) + [Ublock Origin](https://ublockorigin.com).
 + Use [Sponsorblock](https://github.com/ajayyy/SponsorBlock) and [Dearrow](https://github.com/ajayyy/DeArrow) to remove clickbait and in-video sponsors.
 + On iOS use [Vinegar](https://apps.apple.com/app/id1591303229) to enable PiP, background audio and [much more](https://andadinosaur.com/launch-vinegar).
   

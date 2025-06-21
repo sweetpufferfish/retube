@@ -17,6 +17,7 @@ youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.mobile-topbar-header-content > ytm-menu
 m.youtube.com##ytm-topbar-menu-button-renderer
+m.youtube.com##.music-metadata-premium-upsell-link
 m.youtube.com##.pivot-bar-slide-in
 m.youtube.com##.c4-tabbed-header-page-header-banner
 m.youtube.com##ytm-badge:has-text(Fundraiser)
