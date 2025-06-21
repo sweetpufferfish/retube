@@ -10,10 +10,18 @@
 ! Cosmetic Filters
 youtube.com###purchase-button
 youtube.com###sponsor-button
+youtube.com###offer-module
+youtube.com###survey
+youtube.com##yt-survey-answer-card-renderer
+youtube.com##.ytp-suggested-action-badge
 youtube.com##button[aria-label="Join this channel"]
 youtube.com###attached-survey
+youtube.com###ticket-shelf
 youtube.com##yt-tab-shape[tab-title="Community"]
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
+youtube.com##yt-formatted-string>span:has-text(product)
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
+youtube.com##yt-tab-shape[tab-title="Store"]
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.mobile-topbar-header-content > ytm-menu
 m.youtube.com##ytm-topbar-menu-button-renderer
