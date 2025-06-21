@@ -4,6 +4,7 @@ A personal adblock filter list designed to remove distractions from YouTube on *
 ## Filtering
 - [X] Premium prompts
 - [X] Shorts/reels and related tabs
+- [X] Live/stream videos
 - [X] Explore tab
 - [X] App installation prompts
 - [X] Feed badges (New, 4K, etc.)

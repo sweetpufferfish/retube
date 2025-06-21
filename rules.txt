@@ -51,6 +51,14 @@ youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
 m.youtube.com##.rich-section-content
 
+! Live
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer>span:has-text(Streamed))
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"])
+youtube.com##.yt-spec-avatar-shape__live-badge
+youtube.com##.yt-spec-avatar-shape--live-ring:remove-class(yt-spec-avatar-shape--live-ring)
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Live))
+youtube.com##yt-tab-shape[tab-title="Live"]
+
 ! Search/Trending page (Android)
 youtube.com##ytm-reel-shelf-renderer
 youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
