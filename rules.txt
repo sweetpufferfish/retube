@@ -12,9 +12,11 @@ youtube.com###purchase-button
 youtube.com###sponsor-button
 youtube.com###offer-module
 youtube.com###survey
+youtube.com###chat
 youtube.com###masthead-ad
 youtube.com##yt-survey-answer-card-renderer
 youtube.com##.ytp-suggested-action-badge
+youtube.com##.video-annotations
 youtube.com##button[aria-label="Join this channel"]
 youtube.com###attached-survey
 youtube.com###ticket-shelf
@@ -61,7 +63,6 @@ youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
 m.youtube.com##.rich-section-content
-
 
 ! Embeds
 ##.ytp-scroll-min
