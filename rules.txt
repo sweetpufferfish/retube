@@ -48,13 +48,15 @@ m.youtube.com##button[aria-label="Save to playlist"]
 
 ! Social
 ! comment section can be useful sometimes disregarding the useless bot farms and discourse
-# m.youtube.com##ytm-comments-entry-point-header-renderer
-# m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels
+! m.youtube.com##ytm-comments-entry-point-header-renderer
+! m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels
 ! metadata section pairs well with dearrow and sponsorblock segment editing
 # m.youtube.com##ytm-slim-video-metadata-section-renderer
 m.youtube.com##.slim-owner-subscribe-button
 m.youtube.com##.channel-subscribe-button
 m.youtube.com##button[aria-label="Report"]
+! up next
+m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels[section-identifier="related-items"]
 
 ! Reels
 youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
