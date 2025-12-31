@@ -61,10 +61,20 @@ m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels[
 ! Reels
 youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
 youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+m.youtube.com##.big-shorts-singleton
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
 m.youtube.com##.rich-section-content
+
+! shorts icons (desktop and mobile)
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+
+! Updated rules
+youtube.com##.ytGridShelfViewModelHost
+! Shorts search header button
+youtube.com##.ytChipShapeHost:has-text(Shorts)
 
 ! Embeds
 ##.ytp-scroll-min
@@ -85,8 +95,9 @@ youtube.com##yt-tab-shape[tab-title="Live"]
 youtube.com##ytm-reel-shelf-renderer
 youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
 youtube.com##ytm-media-item:has(a[href^="/shorts/"])
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##.ytd-rich-shelf-renderer:has-text(Shorts)
 youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+youtube.com##.rich-section-content.fresh-feeds-dismissals
 
 ! Tracking & pinging
 /generate_204$~xhr
